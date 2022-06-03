@@ -1,0 +1,20 @@
+{
+  "name": "BGColor Changer Practice",
+  "description": "Chrome plugin playground",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "/images/icon128.png"
+    }
+  },
+  "icons": {
+    "128": "/images/icon128.png"
+  }
+}
